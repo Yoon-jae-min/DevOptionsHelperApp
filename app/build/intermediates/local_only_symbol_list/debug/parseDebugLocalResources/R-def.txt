@@ -1,0 +1,34 @@
+R_DEF: Internal format may change without notice
+local
+color ic_launcher_background
+color on_primary
+color on_surface
+color on_surface_variant
+color primary
+color surface
+drawable ic_launcher
+drawable ic_launcher_foreground
+id btnOpenDevOptionsMenu
+id btnToggleDevOptions
+id cardDevOptionsMenu
+id tvStatus
+layout activity_main
+string app_name
+string app_subtitle
+string app_title
+string btn_open_dev_options
+string btn_turn_off
+string btn_turn_on
+string current_status
+string dev_options_menu_desc
+string dev_options_menu_title
+string dialog_permission_message
+string dialog_permission_title
+string permission_note
+string status_developer_options_off
+string status_developer_options_on
+string toast_cannot_open_settings
+string toast_dev_options_off
+string toast_dev_options_on
+string toast_error
+style Theme.DevOptionsHelper
