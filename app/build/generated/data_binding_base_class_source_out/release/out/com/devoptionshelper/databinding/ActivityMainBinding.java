@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ScrollView;
+import android.widget.Switch;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -25,21 +26,26 @@ public final class ActivityMainBinding implements ViewBinding {
   public final MaterialButton btnOpenDevOptionsMenu;
 
   @NonNull
-  public final MaterialButton btnToggleDevOptions;
+  public final MaterialButton btnShowPermissionHelp;
 
   @NonNull
   public final MaterialCardView cardDevOptionsMenu;
 
   @NonNull
+  public final Switch switchDevOptions;
+
+  @NonNull
   public final TextView tvStatus;
 
   private ActivityMainBinding(@NonNull ScrollView rootView,
-      @NonNull MaterialButton btnOpenDevOptionsMenu, @NonNull MaterialButton btnToggleDevOptions,
-      @NonNull MaterialCardView cardDevOptionsMenu, @NonNull TextView tvStatus) {
+      @NonNull MaterialButton btnOpenDevOptionsMenu, @NonNull MaterialButton btnShowPermissionHelp,
+      @NonNull MaterialCardView cardDevOptionsMenu, @NonNull Switch switchDevOptions,
+      @NonNull TextView tvStatus) {
     this.rootView = rootView;
     this.btnOpenDevOptionsMenu = btnOpenDevOptionsMenu;
-    this.btnToggleDevOptions = btnToggleDevOptions;
+    this.btnShowPermissionHelp = btnShowPermissionHelp;
     this.cardDevOptionsMenu = cardDevOptionsMenu;
+    this.switchDevOptions = switchDevOptions;
     this.tvStatus = tvStatus;
   }
 
@@ -76,15 +82,21 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.btnToggleDevOptions;
-      MaterialButton btnToggleDevOptions = ViewBindings.findChildViewById(rootView, id);
-      if (btnToggleDevOptions == null) {
+      id = R.id.btnShowPermissionHelp;
+      MaterialButton btnShowPermissionHelp = ViewBindings.findChildViewById(rootView, id);
+      if (btnShowPermissionHelp == null) {
         break missingId;
       }
 
       id = R.id.cardDevOptionsMenu;
       MaterialCardView cardDevOptionsMenu = ViewBindings.findChildViewById(rootView, id);
       if (cardDevOptionsMenu == null) {
+        break missingId;
+      }
+
+      id = R.id.switchDevOptions;
+      Switch switchDevOptions = ViewBindings.findChildViewById(rootView, id);
+      if (switchDevOptions == null) {
         break missingId;
       }
 
@@ -95,7 +107,7 @@ public final class ActivityMainBinding implements ViewBinding {
       }
 
       return new ActivityMainBinding((ScrollView) rootView, btnOpenDevOptionsMenu,
-          btnToggleDevOptions, cardDevOptionsMenu, tvStatus);
+          btnShowPermissionHelp, cardDevOptionsMenu, switchDevOptions, tvStatus);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

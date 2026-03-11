@@ -27,11 +27,16 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setupClickListeners() {
-        binding.btnToggleDevOptions.setOnClickListener {
-            toggleDeveloperOptions()
+        binding.switchDevOptions.setOnCheckedChangeListener { _, isChecked ->
+            if (isChecked != isDeveloperOptionsEnabled()) {
+                toggleDeveloperOptions()
+            }
         }
         binding.btnOpenDevOptionsMenu.setOnClickListener {
             openDeveloperOptionsMenu()
+        }
+        binding.btnShowPermissionHelp.setOnClickListener {
+            showPermissionRequiredDialog()
         }
     }
 
@@ -54,11 +59,7 @@ class MainActivity : AppCompatActivity() {
         } else {
             getString(R.string.status_developer_options_off)
         }
-        binding.btnToggleDevOptions.text = if (enabled) {
-            getString(R.string.btn_turn_off)
-        } else {
-            getString(R.string.btn_turn_on)
-        }
+        binding.switchDevOptions.isChecked = enabled
         binding.btnOpenDevOptionsMenu.isEnabled = enabled
         binding.cardDevOptionsMenu.alpha = if (enabled) 1f else 0.5f
     }

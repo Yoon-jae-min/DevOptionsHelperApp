@@ -9,14 +9,16 @@ color surface
 drawable ic_launcher
 drawable ic_launcher_foreground
 id btnOpenDevOptionsMenu
-id btnToggleDevOptions
+id btnShowPermissionHelp
 id cardDevOptionsMenu
+id switchDevOptions
 id tvStatus
 layout activity_main
 string app_name
 string app_subtitle
 string app_title
 string btn_open_dev_options
+string btn_show_permission_help
 string btn_turn_off
 string btn_turn_on
 string current_status

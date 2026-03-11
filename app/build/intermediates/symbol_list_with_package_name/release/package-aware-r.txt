@@ -3181,7 +3181,7 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btnOpenDevOptionsMenu
-id btnToggleDevOptions
+id btnShowPermissionHelp
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3512,6 +3512,7 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id switchDevOptions
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -3816,6 +3817,7 @@ string bottomsheet_action_expand_halfway
 string bottomsheet_drag_handle_clicked
 string bottomsheet_drag_handle_content_description
 string btn_open_dev_options
+string btn_show_permission_help
 string btn_turn_off
 string btn_turn_on
 string call_notification_answer_action
