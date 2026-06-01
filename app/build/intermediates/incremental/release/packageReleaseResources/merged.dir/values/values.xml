@@ -1,29 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="ic_launcher_background">#1976D2</color>
+    <color name="ic_launcher_background">#344955</color>
+    <color name="ic_launcher_badge">#F5A623</color>
     <color name="on_primary">#FFFFFF</color>
     <color name="on_surface">#1C1B1F</color>
     <color name="on_surface_variant">#49454F</color>
     <color name="primary">#1976D2</color>
     <color name="surface">#FAFAFA</color>
+    <string name="ad_banner_unit_id" translatable="false">ca-app-pub-7520135902300396/4296790079</string>
+    <string name="admob_app_id" translatable="false">ca-app-pub-7520135902300396~6816353659</string>
     <string name="app_name">개발자 옵션</string>
-    <string name="app_subtitle">토글 스위치로 개발자 옵션을 쉽게 켜고 끌 수 있습니다</string>
+    <string name="app_subtitle">설정 화면으로 바로 이동하고, 원하면 앱에서 간편하게 켜고 끌 수 있습니다</string>
     <string name="app_title">개발자 옵션 도우미</string>
-    <string name="btn_open_dev_options">개발자 옵션 메뉴 열기</string>
-    <string name="btn_show_permission_help">권한 설정 방법 보기</string>
-    <string name="btn_turn_off">개발자 옵션 끄기</string>
-    <string name="btn_turn_on">개발자 옵션 켜기</string>
+    <string name="btn_open_dev_options_off">개발자 옵션 켜기 (설정으로 이동)</string>
+    <string name="btn_open_dev_options_on">개발자 옵션 설정 열기</string>
+    <string name="btn_show_permission_help">PC에서 권한 설정하는 방법</string>
     <string name="current_status">현재 상태</string>
-    <string name="dev_options_menu_desc">켜진 경우 시스템 개발자 옵션 설정 화면을 엽니다.</string>
-    <string name="dev_options_menu_title">개발자 옵션 메뉴</string>
-    <string name="dialog_permission_message">개발자 옵션을 켜거나 끄려면 WRITE_SECURE_SETTINGS 권한이 필요합니다.\n\n1) 기기에서 개발자 옵션 > USB 디버깅을 켭니다.\n2) PC에 Android Platform Tools(ADB)를 설치합니다.\n3) USB 케이블로 기기와 PC를 연결합니다.\n4) PC의 터미널(명령 프롬프트)에서 아래 명령을 실행합니다.\n\nadb devices\nadb shell pm grant com.devoptionshelper android.permission.WRITE_SECURE_SETTINGS\n\n위 작업은 기기당 한 번만 실행하면 됩니다.</string>
-    <string name="dialog_permission_title">권한 필요</string>
-    <string name="permission_note">※ 개발자 옵션 ON/OFF를 사용하려면, 한 번만 PC에서 ADB로 권한을 부여해야 합니다. 자세한 방법은 권한 안내 팝업을 참고하세요.</string>
+    <string name="dialog_enable_dev_options_message">1. 열리는 설정에서 「휴대전화 정보」 또는 「디바이스 정보」로 이동합니다.\n2. 「빌드 번호」(또는 「빌드번호」)를 7번 연속 탭합니다.\n3. 「개발자가 되었습니다」 안내가 나오면 완료입니다.\n\n※ 삼성 등 일부 기기는 「소프트웨어 정보」 안에 빌드 번호가 있습니다.\n※ 켜진 후 이 버튼을 다시 누르면 개발자 옵션 설정으로 이동합니다.</string>
+    <string name="dialog_enable_dev_options_title">개발자 옵션 켜는 방법</string>
+    <string name="dialog_permission_message">스위치로 개발자 옵션을 바로 켜고 끄려면 WRITE_SECURE_SETTINGS 권한이 필요합니다. 아래는 기기당 한 번만 하면 됩니다.\n\n1) 기기에서 개발자 옵션 > USB 디버깅을 켭니다.\n2) PC에 Android Platform Tools(ADB)를 설치합니다.\n3) USB 케이블로 기기와 PC를 연결합니다.\n4) PC 터미널(명령 프롬프트)에서 실행합니다.\n\nadb devices\nadb shell pm grant com.devoptionshelper android.permission.WRITE_SECURE_SETTINGS\n\n※ 설정 화면 열기(바로가기)는 권한 없이도 사용할 수 있습니다.</string>
+    <string name="dialog_permission_title">간편 켜기/끄기 설정 방법</string>
+    <string name="quick_toggle_desc">PC에서 ADB 권한을 한 번 부여하면, 앱 안에서 스위치로 바로 켜고 끌 수 있습니다.</string>
+    <string name="quick_toggle_need_permission">아직 권한이 없습니다. 아래 안내를 참고해 PC에서 한 번만 설정하세요.</string>
+    <string name="quick_toggle_ready">권한이 설정되어 있습니다. 스위치로 바로 변경할 수 있습니다.</string>
+    <string name="quick_toggle_title">간편 켜기/끄기 (선택)</string>
+    <string name="shortcut_desc_off">휴대전화 정보 화면으로 이동합니다. 빌드 번호를 7번 연속 눌러 개발자 옵션을 켜세요. (기기마다 소프트웨어 정보 메뉴 안에 있을 수 있습니다. 자세한 방법은 버튼을 길게 누르세요)</string>
+    <string name="shortcut_desc_on">개발자 옵션 설정 화면으로 이동합니다.</string>
+    <string name="shortcut_title">설정 바로가기</string>
     <string name="status_developer_options_off">개발자 옵션 꺼짐</string>
     <string name="status_developer_options_on">개발자 옵션 켜짐</string>
-    <string name="toast_cannot_open_settings">개발자 옵션 화면을 열 수 없습니다.</string>
+    <string name="toast_cannot_open_settings">설정 화면을 열 수 없습니다. 시스템 설정 앱에서 직접 열어 주세요.</string>
     <string name="toast_dev_options_off">개발자 옵션을 껐습니다.</string>
     <string name="toast_dev_options_on">개발자 옵션을 켰습니다.</string>
+    <string name="toast_enable_dev_options_hint">빌드 번호를 7번 연속 눌러 개발자 옵션을 켜 주세요.</string>
     <string name="toast_error">설정을 변경할 수 없습니다.</string>
     <style name="Theme.DevOptionsHelper" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">@color/primary</item>

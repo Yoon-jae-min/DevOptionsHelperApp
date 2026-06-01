@@ -4,13 +4,15 @@ package com.devoptionshelper.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ScrollView;
+import android.widget.LinearLayout;
+import android.widget.Switch;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.devoptionshelper.R;
+import com.google.android.gms.ads.AdView;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.card.MaterialCardView;
 import java.lang.NullPointerException;
@@ -19,33 +21,51 @@ import java.lang.String;
 
 public final class ActivityMainBinding implements ViewBinding {
   @NonNull
-  private final ScrollView rootView;
+  private final LinearLayout rootView;
+
+  @NonNull
+  public final AdView adViewBanner;
 
   @NonNull
   public final MaterialButton btnOpenDevOptionsMenu;
 
   @NonNull
-  public final MaterialButton btnToggleDevOptions;
+  public final MaterialButton btnShowPermissionHelp;
 
   @NonNull
-  public final MaterialCardView cardDevOptionsMenu;
+  public final MaterialCardView cardQuickToggle;
+
+  @NonNull
+  public final Switch switchDevOptions;
+
+  @NonNull
+  public final TextView tvQuickToggleHint;
+
+  @NonNull
+  public final TextView tvShortcutDesc;
 
   @NonNull
   public final TextView tvStatus;
 
-  private ActivityMainBinding(@NonNull ScrollView rootView,
-      @NonNull MaterialButton btnOpenDevOptionsMenu, @NonNull MaterialButton btnToggleDevOptions,
-      @NonNull MaterialCardView cardDevOptionsMenu, @NonNull TextView tvStatus) {
+  private ActivityMainBinding(@NonNull LinearLayout rootView, @NonNull AdView adViewBanner,
+      @NonNull MaterialButton btnOpenDevOptionsMenu, @NonNull MaterialButton btnShowPermissionHelp,
+      @NonNull MaterialCardView cardQuickToggle, @NonNull Switch switchDevOptions,
+      @NonNull TextView tvQuickToggleHint, @NonNull TextView tvShortcutDesc,
+      @NonNull TextView tvStatus) {
     this.rootView = rootView;
+    this.adViewBanner = adViewBanner;
     this.btnOpenDevOptionsMenu = btnOpenDevOptionsMenu;
-    this.btnToggleDevOptions = btnToggleDevOptions;
-    this.cardDevOptionsMenu = cardDevOptionsMenu;
+    this.btnShowPermissionHelp = btnShowPermissionHelp;
+    this.cardQuickToggle = cardQuickToggle;
+    this.switchDevOptions = switchDevOptions;
+    this.tvQuickToggleHint = tvQuickToggleHint;
+    this.tvShortcutDesc = tvShortcutDesc;
     this.tvStatus = tvStatus;
   }
 
   @Override
   @NonNull
-  public ScrollView getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -70,21 +90,45 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.adViewBanner;
+      AdView adViewBanner = ViewBindings.findChildViewById(rootView, id);
+      if (adViewBanner == null) {
+        break missingId;
+      }
+
       id = R.id.btnOpenDevOptionsMenu;
       MaterialButton btnOpenDevOptionsMenu = ViewBindings.findChildViewById(rootView, id);
       if (btnOpenDevOptionsMenu == null) {
         break missingId;
       }
 
-      id = R.id.btnToggleDevOptions;
-      MaterialButton btnToggleDevOptions = ViewBindings.findChildViewById(rootView, id);
-      if (btnToggleDevOptions == null) {
+      id = R.id.btnShowPermissionHelp;
+      MaterialButton btnShowPermissionHelp = ViewBindings.findChildViewById(rootView, id);
+      if (btnShowPermissionHelp == null) {
         break missingId;
       }
 
-      id = R.id.cardDevOptionsMenu;
-      MaterialCardView cardDevOptionsMenu = ViewBindings.findChildViewById(rootView, id);
-      if (cardDevOptionsMenu == null) {
+      id = R.id.cardQuickToggle;
+      MaterialCardView cardQuickToggle = ViewBindings.findChildViewById(rootView, id);
+      if (cardQuickToggle == null) {
+        break missingId;
+      }
+
+      id = R.id.switchDevOptions;
+      Switch switchDevOptions = ViewBindings.findChildViewById(rootView, id);
+      if (switchDevOptions == null) {
+        break missingId;
+      }
+
+      id = R.id.tvQuickToggleHint;
+      TextView tvQuickToggleHint = ViewBindings.findChildViewById(rootView, id);
+      if (tvQuickToggleHint == null) {
+        break missingId;
+      }
+
+      id = R.id.tvShortcutDesc;
+      TextView tvShortcutDesc = ViewBindings.findChildViewById(rootView, id);
+      if (tvShortcutDesc == null) {
         break missingId;
       }
 
@@ -94,8 +138,9 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ScrollView) rootView, btnOpenDevOptionsMenu,
-          btnToggleDevOptions, cardDevOptionsMenu, tvStatus);
+      return new ActivityMainBinding((LinearLayout) rootView, adViewBanner, btnOpenDevOptionsMenu,
+          btnShowPermissionHelp, cardQuickToggle, switchDevOptions, tvQuickToggleHint,
+          tvShortcutDesc, tvStatus);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

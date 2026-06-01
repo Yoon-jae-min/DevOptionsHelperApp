@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.devoptionshelper.app-mergeReleaseResources-29:/values-land/values-land.xml",
+            "outputFile": "com.devoptionshelper.app-mergeReleaseResources-39:/values-land/values-land.xml",
             "map": [
                 {
                     "source": "C:\\Users\\androidJM\\.gradle\\caches\\8.9\\transforms\\b5e09fa52cbd174c5e20401d37714b7e\\transformed\\material-1.11.0\\res\\values-land\\values-land.xml",
