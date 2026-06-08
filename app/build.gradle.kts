@@ -4,13 +4,13 @@ plugins {
 }
 android {
     namespace = "com.devoptionshelper"
-    compileSdk = 34
+    compileSdk = 35
     defaultConfig {
         applicationId = "com.devoptionshelper"
         minSdk = 24
-        targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        targetSdk = 35
+        versionCode = 4
+        versionName = "1.0.1"
     }
     signingConfigs {
         create("release") {

@@ -6,6 +6,8 @@ import android.content.pm.PackageManager
 import android.os.Bundle
 import android.provider.Settings
 import android.widget.CompoundButton
+import android.widget.ScrollView
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
@@ -159,9 +161,26 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showPermissionHelpDialog() {
+        showScrollableMessageDialog(
+            R.string.dialog_permission_title,
+            R.string.dialog_permission_message
+        )
+    }
+
+    private fun showScrollableMessageDialog(titleResId: Int, messageResId: Int) {
+        val padding = (24 * resources.displayMetrics.density).toInt()
+        val textView = TextView(this).apply {
+            text = getString(messageResId)
+            setPadding(padding, padding / 2, padding, 0)
+            textSize = 14f
+            setTextIsSelectable(true)
+        }
+        val scrollView = ScrollView(this).apply {
+            addView(textView)
+        }
         AlertDialog.Builder(this)
-            .setTitle(R.string.dialog_permission_title)
-            .setMessage(getString(R.string.dialog_permission_message))
+            .setTitle(titleResId)
+            .setView(scrollView)
             .setPositiveButton(android.R.string.ok, null)
             .show()
     }
