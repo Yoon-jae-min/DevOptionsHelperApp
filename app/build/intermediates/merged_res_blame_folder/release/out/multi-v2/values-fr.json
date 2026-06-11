@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.devoptionshelper.app-mergeReleaseResources-39:/values-fr/values-fr.xml",
+            "outputFile": "com.devoptionshelper.app-mergeReleaseResources-40:/values-fr/values-fr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\androidJM\\.gradle\\caches\\8.9\\transforms\\fcdac966a35c85b489b6bac0df950a6b\\transformed\\play-services-ads-23.6.0\\res\\values-fr\\values.xml",

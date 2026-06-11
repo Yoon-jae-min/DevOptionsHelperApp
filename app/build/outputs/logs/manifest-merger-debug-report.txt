@@ -1,18 +1,19 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\androidJM\Desktop\Project\Apps\DevOptionsHelper\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\androidJM\Desktop\Project\Apps\DevOptionsHelper\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\androidJM\Desktop\Project\Apps\DevOptionsHelper\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\androidJM\Desktop\Project\Apps\DevOptionsHelper\app\src\main\AndroidManifest.xml:2:1-31:12
+ADDED from C:\Users\androidJM\Desktop\Project\Apps\DevOptionsHelper\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\androidJM\Desktop\Project\Apps\DevOptionsHelper\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\androidJM\Desktop\Project\Apps\DevOptionsHelper\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\androidJM\Desktop\Project\Apps\DevOptionsHelper\app\src\main\AndroidManifest.xml:2:1-41:12
 MERGED from [androidx.databinding:viewbinding:8.1.3] C:\Users\androidJM\.gradle\caches\8.9\transforms\c8135d6df8986ff96658e2c2da2d23b6\transformed\viewbinding-8.1.3\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\b5e09fa52cbd174c5e20401d37714b7e\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\androidJM\.gradle\caches\8.9\transforms\5f070c72b74c1f5933f8146a9fc6a89e\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\androidJM\.gradle\caches\8.9\transforms\be6c0eb4b27bb6b27f5ffc3543561805\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\androidJM\.gradle\caches\8.9\transforms\152c8993f4c59d8942bec0ad1bd24ed1\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\androidJM\.gradle\caches\8.9\transforms\128acee89d488c921cc613d84eeafe20\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\androidJM\.gradle\caches\8.9\transforms\1398e0bb3b67c113aace8647d342ab7a\transformed\recyclerview-1.3.2\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-ads:23.6.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\fcdac966a35c85b489b6bac0df950a6b\transformed\play-services-ads-23.6.0\AndroidManifest.xml:17:1-25:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\c7c01fe7b20e6541b2a0b45048b91cb7\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\9d9b059cf828e79955916f041020c5f3\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\1042fcb8ce881985c04c72108efa60f0\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\7f754ed4db77a61a50dd787eb66f408b\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:17:1-112:12
 MERGED from [com.google.android.gms:play-services-ads-base:23.6.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\ed462914d4f4f8854ca705dec723f0f3\transformed\play-services-ads-base-23.6.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\993e2f2e0b3a58760a1c9d28a74ec343\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:17:1-27:12
@@ -36,10 +37,10 @@ MERGED from [androidx.webkit:webkit:1.11.0-alpha02] C:\Users\androidJM\.gradle\c
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\bd57340da40e916450d9739b6f9e4b90\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\5e6261254b40131323584a131621b03a\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\a6c1c82576dc57f499a03f304ce7e5e0\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\f795a07f30b1030492ce8c2b7fd7f581\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\bc5897b3a374a222c95929a9b12f8818\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.work:work-runtime:2.7.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\d9c792ac11a9361b7268ee40321a8c27\transformed\work-runtime-2.7.0\AndroidManifest.xml:17:1-145:12
 MERGED from [androidx.core:core:1.12.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\d8492e26dc336a2e91012aeb215c441f\transformed\core-1.12.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\ce0bb84761f33f88e1d2cbfd8cf68e65\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] C:\Users\androidJM\.gradle\caches\8.9\transforms\2685702683da5bd934b4c4ca5f95522b\transformed\ads-adservices-java-1.0.0-beta05\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\androidJM\.gradle\caches\8.9\transforms\d5103b30782b849b2d772b52417bd468\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\androidJM\.gradle\caches\8.9\transforms\33dc28177eb1d79ec106fea39379f965\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
@@ -91,8 +92,8 @@ ADDED from C:\Users\androidJM\Desktop\Project\Apps\DevOptionsHelper\app\src\main
 	android:name
 		ADDED from C:\Users\androidJM\Desktop\Project\Apps\DevOptionsHelper\app\src\main\AndroidManifest.xml:6:22-77
 application
-ADDED from C:\Users\androidJM\Desktop\Project\Apps\DevOptionsHelper\app\src\main\AndroidManifest.xml:9:5-30:19
-INJECTED from C:\Users\androidJM\Desktop\Project\Apps\DevOptionsHelper\app\src\main\AndroidManifest.xml:9:5-30:19
+ADDED from C:\Users\androidJM\Desktop\Project\Apps\DevOptionsHelper\app\src\main\AndroidManifest.xml:9:5-40:19
+INJECTED from C:\Users\androidJM\Desktop\Project\Apps\DevOptionsHelper\app\src\main\AndroidManifest.xml:9:5-40:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\b5e09fa52cbd174c5e20401d37714b7e\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\b5e09fa52cbd174c5e20401d37714b7e\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\androidJM\.gradle\caches\8.9\transforms\5f070c72b74c1f5933f8146a9fc6a89e\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -171,6 +172,22 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\androidJM\Desktop\Project\Apps\DevOptionsHelper\app\src\main\AndroidManifest.xml:27:17-77
 	android:name
 		ADDED from C:\Users\androidJM\Desktop\Project\Apps\DevOptionsHelper\app\src\main\AndroidManifest.xml:27:27-74
+activity#com.devoptionshelper.GuideActivity
+ADDED from C:\Users\androidJM\Desktop\Project\Apps\DevOptionsHelper\app\src\main\AndroidManifest.xml:31:9-34:61
+	android:exported
+		ADDED from C:\Users\androidJM\Desktop\Project\Apps\DevOptionsHelper\app\src\main\AndroidManifest.xml:33:13-37
+	android:theme
+		ADDED from C:\Users\androidJM\Desktop\Project\Apps\DevOptionsHelper\app\src\main\AndroidManifest.xml:34:13-58
+	android:name
+		ADDED from C:\Users\androidJM\Desktop\Project\Apps\DevOptionsHelper\app\src\main\AndroidManifest.xml:32:13-42
+activity#com.devoptionshelper.GuideDetailActivity
+ADDED from C:\Users\androidJM\Desktop\Project\Apps\DevOptionsHelper\app\src\main\AndroidManifest.xml:36:9-39:61
+	android:exported
+		ADDED from C:\Users\androidJM\Desktop\Project\Apps\DevOptionsHelper\app\src\main\AndroidManifest.xml:38:13-37
+	android:theme
+		ADDED from C:\Users\androidJM\Desktop\Project\Apps\DevOptionsHelper\app\src\main\AndroidManifest.xml:39:13-58
+	android:name
+		ADDED from C:\Users\androidJM\Desktop\Project\Apps\DevOptionsHelper\app\src\main\AndroidManifest.xml:37:13-48
 uses-sdk
 INJECTED from C:\Users\androidJM\Desktop\Project\Apps\DevOptionsHelper\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\androidJM\Desktop\Project\Apps\DevOptionsHelper\app\src\main\AndroidManifest.xml
@@ -185,14 +202,16 @@ MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\androidJM\.g
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\androidJM\.gradle\caches\8.9\transforms\be6c0eb4b27bb6b27f5ffc3543561805\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\androidJM\.gradle\caches\8.9\transforms\152c8993f4c59d8942bec0ad1bd24ed1\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\androidJM\.gradle\caches\8.9\transforms\152c8993f4c59d8942bec0ad1bd24ed1\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\androidJM\.gradle\caches\8.9\transforms\128acee89d488c921cc613d84eeafe20\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\androidJM\.gradle\caches\8.9\transforms\128acee89d488c921cc613d84eeafe20\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\androidJM\.gradle\caches\8.9\transforms\1398e0bb3b67c113aace8647d342ab7a\transformed\recyclerview-1.3.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\androidJM\.gradle\caches\8.9\transforms\1398e0bb3b67c113aace8647d342ab7a\transformed\recyclerview-1.3.2\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads:23.6.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\fcdac966a35c85b489b6bac0df950a6b\transformed\play-services-ads-23.6.0\AndroidManifest.xml:21:5-23:52
 MERGED from [com.google.android.gms:play-services-ads:23.6.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\fcdac966a35c85b489b6bac0df950a6b\transformed\play-services-ads-23.6.0\AndroidManifest.xml:21:5-23:52
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\c7c01fe7b20e6541b2a0b45048b91cb7\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\c7c01fe7b20e6541b2a0b45048b91cb7\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\9d9b059cf828e79955916f041020c5f3\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\9d9b059cf828e79955916f041020c5f3\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\1042fcb8ce881985c04c72108efa60f0\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\1042fcb8ce881985c04c72108efa60f0\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\7f754ed4db77a61a50dd787eb66f408b\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:21:5-44
 MERGED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\7f754ed4db77a61a50dd787eb66f408b\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:21:5-44
 MERGED from [com.google.android.gms:play-services-ads-base:23.6.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\ed462914d4f4f8854ca705dec723f0f3\transformed\play-services-ads-base-23.6.0\AndroidManifest.xml:5:5-44
@@ -239,14 +258,14 @@ MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\androidJM
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\5e6261254b40131323584a131621b03a\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\a6c1c82576dc57f499a03f304ce7e5e0\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\a6c1c82576dc57f499a03f304ce7e5e0\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\f795a07f30b1030492ce8c2b7fd7f581\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\f795a07f30b1030492ce8c2b7fd7f581\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\bc5897b3a374a222c95929a9b12f8818\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\bc5897b3a374a222c95929a9b12f8818\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.work:work-runtime:2.7.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\d9c792ac11a9361b7268ee40321a8c27\transformed\work-runtime-2.7.0\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.work:work-runtime:2.7.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\d9c792ac11a9361b7268ee40321a8c27\transformed\work-runtime-2.7.0\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.core:core:1.12.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\d8492e26dc336a2e91012aeb215c441f\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.12.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\d8492e26dc336a2e91012aeb215c441f\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\ce0bb84761f33f88e1d2cbfd8cf68e65\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\androidJM\.gradle\caches\8.9\transforms\ce0bb84761f33f88e1d2cbfd8cf68e65\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
 MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] C:\Users\androidJM\.gradle\caches\8.9\transforms\2685702683da5bd934b4c4ca5f95522b\transformed\ads-adservices-java-1.0.0-beta05\AndroidManifest.xml:5:5-44
 MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] C:\Users\androidJM\.gradle\caches\8.9\transforms\2685702683da5bd934b4c4ca5f95522b\transformed\ads-adservices-java-1.0.0-beta05\AndroidManifest.xml:5:5-44
 MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\androidJM\.gradle\caches\8.9\transforms\d5103b30782b849b2d772b52417bd468\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:20:5-44

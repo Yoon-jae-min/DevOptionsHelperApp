@@ -7,4 +7,23 @@
     <color name="on_surface_variant">#49454F</color>
     <color name="ic_launcher_background">#344955</color>
     <color name="ic_launcher_badge">#F5A623</color>
+    <color name="guide_badge_common">#2E7D32</color>
+    <color name="guide_badge_optional">#EF6C00</color>
+    <color name="guide_badge_debugging">#1565C0</color>
+    <color name="guide_badge_networking">#00838F</color>
+    <color name="guide_badge_input">#6A1B9A</color>
+    <color name="guide_badge_drawing">#C62828</color>
+    <color name="guide_badge_rendering">#455A64</color>
+    <color name="guide_badge_media">#5D4037</color>
+    <color name="guide_badge_monitoring">#558B2F</color>
+    <color name="guide_badge_apps">#3949AB</color>
+    <color name="guide_badge_autofill">#00796B</color>
+    <color name="guide_badge_storage">#4E342E</color>
+    <color name="guide_badge_location">#E65100</color>
+    <color name="guide_badge_security">#B71C1C</color>
+    <color name="guide_badge_input_method">#4527A0</color>
+    <color name="guide_illustration_bg">#EEF3F8</color>
+    <color name="guide_illustration_border">#C5D4E3</color>
+    <color name="guide_highlight_bg">#E3F2FD</color>
+    <color name="guide_row_bg">#F3F4F6</color>
 </resources>

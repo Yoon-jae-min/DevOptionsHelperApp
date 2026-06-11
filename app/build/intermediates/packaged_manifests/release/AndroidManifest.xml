@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.devoptionshelper"
-    android:versionCode="4"
-    android:versionName="1.0.1" >
+    android:versionCode="5"
+    android:versionName="1.1.0" >
 
     <uses-sdk
         android:minSdkVersion="24"
@@ -82,6 +82,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.devoptionshelper.GuideActivity"
+            android:exported="false"
+            android:theme="@style/Theme.DevOptionsHelper" />
+        <activity
+            android:name="com.devoptionshelper.GuideDetailActivity"
+            android:exported="false"
+            android:theme="@style/Theme.DevOptionsHelper" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

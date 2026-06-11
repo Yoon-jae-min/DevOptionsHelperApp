@@ -39,10 +39,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.viewpager2:viewpager2:1.0.0@aar"
-      jars="C:\Users\androidJM\.gradle\caches\8.9\transforms\1042fcb8ce881985c04c72108efa60f0\transformed\viewpager2-1.0.0\jars\classes.jar"
-      resolved="androidx.viewpager2:viewpager2:1.0.0"
-      folder="C:\Users\androidJM\.gradle\caches\8.9\transforms\1042fcb8ce881985c04c72108efa60f0\transformed\viewpager2-1.0.0"
+      name="androidx.viewpager2:viewpager2:1.1.0-beta02@aar"
+      jars="C:\Users\androidJM\.gradle\caches\8.9\transforms\128acee89d488c921cc613d84eeafe20\transformed\viewpager2-1.1.0-beta02\jars\classes.jar"
+      resolved="androidx.viewpager2:viewpager2:1.1.0-beta02"
+      folder="C:\Users\androidJM\.gradle\caches\8.9\transforms\128acee89d488c921cc613d84eeafe20\transformed\viewpager2-1.1.0-beta02"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -221,6 +221,19 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="androidx.recyclerview:recyclerview:1.3.2@aar"
+      jars="C:\Users\androidJM\.gradle\caches\8.9\transforms\1398e0bb3b67c113aace8647d342ab7a\transformed\recyclerview-1.3.2\jars\classes.jar"
+      resolved="androidx.recyclerview:recyclerview:1.3.2"
+      folder="C:\Users\androidJM\.gradle\caches\8.9\transforms\1398e0bb3b67c113aace8647d342ab7a\transformed\recyclerview-1.3.2"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="androidx.appcompat:appcompat-resources:1.6.1@aar"
       jars="C:\Users\androidJM\.gradle\caches\8.9\transforms\be6c0eb4b27bb6b27f5ffc3543561805\transformed\appcompat-resources-1.6.1\jars\classes.jar"
       resolved="androidx.appcompat:appcompat-resources:1.6.1"
@@ -273,19 +286,6 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.recyclerview:recyclerview:1.1.0@aar"
-      jars="C:\Users\androidJM\.gradle\caches\8.9\transforms\f795a07f30b1030492ce8c2b7fd7f581\transformed\recyclerview-1.1.0\jars\classes.jar"
-      resolved="androidx.recyclerview:recyclerview:1.1.0"
-      folder="C:\Users\androidJM\.gradle\caches\8.9\transforms\f795a07f30b1030492ce8c2b7fd7f581\transformed\recyclerview-1.1.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
       name="androidx.transition:transition:1.2.0@aar"
       jars="C:\Users\androidJM\.gradle\caches\8.9\transforms\5737b4065b3eb0fc9e1d6aef8193e7f0\transformed\transition-1.2.0\jars\classes.jar"
       resolved="androidx.transition:transition:1.2.0"
@@ -325,32 +325,6 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.browser:browser:1.8.0@aar"
-      jars="C:\Users\androidJM\.gradle\caches\8.9\transforms\bd4434ba36b53e546ff697b9bf4eb097\transformed\browser-1.8.0\jars\classes.jar"
-      resolved="androidx.browser:browser:1.8.0"
-      folder="C:\Users\androidJM\.gradle\caches\8.9\transforms\bd4434ba36b53e546ff697b9bf4eb097\transformed\browser-1.8.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="androidx.webkit:webkit:1.11.0-alpha02@aar"
-      jars="C:\Users\androidJM\.gradle\caches\8.9\transforms\8180550ee0d1e0b15ea8a380563fab5c\transformed\webkit-1.11.0-alpha02\jars\classes.jar"
-      resolved="androidx.webkit:webkit:1.11.0-alpha02"
-      folder="C:\Users\androidJM\.gradle\caches\8.9\transforms\8180550ee0d1e0b15ea8a380563fab5c\transformed\webkit-1.11.0-alpha02"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
       name="androidx.viewpager:viewpager:1.0.0@aar"
       jars="C:\Users\androidJM\.gradle\caches\8.9\transforms\bd57340da40e916450d9739b6f9e4b90\transformed\viewpager-1.0.0\jars\classes.jar"
       resolved="androidx.viewpager:viewpager:1.0.0"
@@ -368,6 +342,32 @@
       jars="C:\Users\androidJM\.gradle\caches\8.9\transforms\bc5897b3a374a222c95929a9b12f8818\transformed\customview-1.1.0\jars\classes.jar"
       resolved="androidx.customview:customview:1.1.0"
       folder="C:\Users\androidJM\.gradle\caches\8.9\transforms\bc5897b3a374a222c95929a9b12f8818\transformed\customview-1.1.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.browser:browser:1.8.0@aar"
+      jars="C:\Users\androidJM\.gradle\caches\8.9\transforms\bd4434ba36b53e546ff697b9bf4eb097\transformed\browser-1.8.0\jars\classes.jar"
+      resolved="androidx.browser:browser:1.8.0"
+      folder="C:\Users\androidJM\.gradle\caches\8.9\transforms\bd4434ba36b53e546ff697b9bf4eb097\transformed\browser-1.8.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.webkit:webkit:1.11.0-alpha02@aar"
+      jars="C:\Users\androidJM\.gradle\caches\8.9\transforms\8180550ee0d1e0b15ea8a380563fab5c\transformed\webkit-1.11.0-alpha02\jars\classes.jar"
+      resolved="androidx.webkit:webkit:1.11.0-alpha02"
+      folder="C:\Users\androidJM\.gradle\caches\8.9\transforms\8180550ee0d1e0b15ea8a380563fab5c\transformed\webkit-1.11.0-alpha02"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -754,6 +754,19 @@
       jars="C:\Users\androidJM\.gradle\caches\8.9\transforms\9d9b059cf828e79955916f041020c5f3\transformed\emoji2-1.2.0\jars\classes.jar;C:\Users\androidJM\.gradle\caches\8.9\transforms\9d9b059cf828e79955916f041020c5f3\transformed\emoji2-1.2.0\jars\libs\repackaged.jar"
       resolved="androidx.emoji2:emoji2:1.2.0"
       folder="C:\Users\androidJM\.gradle\caches\8.9\transforms\9d9b059cf828e79955916f041020c5f3\transformed\emoji2-1.2.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.customview:customview-poolingcontainer:1.0.0@aar"
+      jars="C:\Users\androidJM\.gradle\caches\8.9\transforms\ce0bb84761f33f88e1d2cbfd8cf68e65\transformed\customview-poolingcontainer-1.0.0\jars\classes.jar"
+      resolved="androidx.customview:customview-poolingcontainer:1.0.0"
+      folder="C:\Users\androidJM\.gradle\caches\8.9\transforms\ce0bb84761f33f88e1d2cbfd8cf68e65\transformed\customview-poolingcontainer-1.0.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"

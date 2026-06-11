@@ -65,6 +65,9 @@ class MainActivity : AppCompatActivity() {
         binding.btnShowPermissionHelp.setOnClickListener {
             showPermissionHelpDialog()
         }
+        binding.btnOpenGuide.setOnClickListener {
+            startActivity(Intent(this, GuideActivity::class.java))
+        }
     }
 
     private val switchListener = CompoundButton.OnCheckedChangeListener { _, isChecked ->

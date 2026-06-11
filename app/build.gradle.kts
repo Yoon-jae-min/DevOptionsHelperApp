@@ -9,8 +9,8 @@ android {
         applicationId = "com.devoptionshelper"
         minSdk = 24
         targetSdk = 35
-        versionCode = 4
-        versionName = "1.0.1"
+        versionCode = 5
+        versionName = "1.1.0"
     }
     signingConfigs {
         create("release") {
@@ -68,5 +68,6 @@ dependencies {
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.11.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
     implementation("com.google.android.gms:play-services-ads:23.6.0")
 }

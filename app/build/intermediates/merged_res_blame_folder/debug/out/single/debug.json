@@ -1,26 +1,150 @@
 [
     {
-        "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-merged_res-41:\\drawable_ic_launcher.xml.flat",
-        "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-43:\\drawable\\ic_launcher.xml"
+        "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-merged_res-42:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-44:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-merged_res-41:\\drawable-nodpi_ic_launcher_art.png.flat",
-        "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-43:\\drawable-nodpi\\ic_launcher_art.png"
+        "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-merged_res-42:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-44:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-merged_res-41:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-43:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-merged_res-42:\\drawable_bg_guide_badge_common.xml.flat",
+        "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-44:\\drawable\\bg_guide_badge_common.xml"
     },
     {
-        "merged": "com.devoptionshelper.app-merged_res-41:/layout_activity_main.xml.flat",
-        "source": "com.devoptionshelper.app-main-43:/layout/activity_main.xml"
+        "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-merged_res-42:\\layout_item_guide_item.xml.flat",
+        "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-44:\\layout\\item_guide_item.xml"
     },
     {
-        "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-merged_res-41:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-43:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-merged_res-42:\\drawable_ic_launcher.xml.flat",
+        "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-44:\\drawable\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-merged_res-41:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-43:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-merged_res-42:\\drawable_bg_guide_badge_debugging.xml.flat",
+        "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-44:\\drawable\\bg_guide_badge_debugging.xml"
+    },
+    {
+        "merged": "com.devoptionshelper.app-merged_res-42:/drawable_bg_guide_badge_storage.xml.flat",
+        "source": "com.devoptionshelper.app-main-44:/drawable/bg_guide_badge_storage.xml"
+    },
+    {
+        "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-merged_res-42:\\drawable-nodpi_guide_ss_input.png.flat",
+        "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-44:\\drawable-nodpi\\guide_ss_input.png"
+    },
+    {
+        "merged": "com.devoptionshelper.app-merged_res-42:/drawable_bg_guide_badge_input_method.xml.flat",
+        "source": "com.devoptionshelper.app-main-44:/drawable/bg_guide_badge_input_method.xml"
+    },
+    {
+        "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-merged_res-42:\\drawable-nodpi_guide_ss_rendering.png.flat",
+        "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-44:\\drawable-nodpi\\guide_ss_rendering.png"
+    },
+    {
+        "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-merged_res-42:\\drawable_bg_guide_badge_rendering.xml.flat",
+        "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-44:\\drawable\\bg_guide_badge_rendering.xml"
+    },
+    {
+        "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-merged_res-42:\\drawable_bg_guide_highlight.xml.flat",
+        "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-44:\\drawable\\bg_guide_highlight.xml"
+    },
+    {
+        "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-merged_res-42:\\drawable_bg_guide_badge_networking.xml.flat",
+        "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-44:\\drawable\\bg_guide_badge_networking.xml"
+    },
+    {
+        "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-merged_res-42:\\drawable_bg_guide_badge_input.xml.flat",
+        "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-44:\\drawable\\bg_guide_badge_input.xml"
+    },
+    {
+        "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-merged_res-42:\\drawable-nodpi_guide_ss_general.png.flat",
+        "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-44:\\drawable-nodpi\\guide_ss_general.png"
+    },
+    {
+        "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-merged_res-42:\\drawable_ic_arrow_back.xml.flat",
+        "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-44:\\drawable\\ic_arrow_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-merged_res-42:\\drawable-nodpi_guide_ss_monitoring.png.flat",
+        "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-44:\\drawable-nodpi\\guide_ss_monitoring.png"
+    },
+    {
+        "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-merged_res-42:\\drawable_bg_guide_badge_media.xml.flat",
+        "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-44:\\drawable\\bg_guide_badge_media.xml"
+    },
+    {
+        "merged": "com.devoptionshelper.app-merged_res-42:/drawable_bg_guide_badge_autofill.xml.flat",
+        "source": "com.devoptionshelper.app-main-44:/drawable/bg_guide_badge_autofill.xml"
+    },
+    {
+        "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-merged_res-42:\\drawable_bg_guide_badge_drawing.xml.flat",
+        "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-44:\\drawable\\bg_guide_badge_drawing.xml"
+    },
+    {
+        "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-merged_res-42:\\drawable_bg_guide_phone_frame.xml.flat",
+        "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-44:\\drawable\\bg_guide_phone_frame.xml"
+    },
+    {
+        "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-merged_res-42:\\drawable_bg_guide_badge_optional.xml.flat",
+        "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-44:\\drawable\\bg_guide_badge_optional.xml"
+    },
+    {
+        "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-merged_res-42:\\drawable-nodpi_guide_ss_drawing.png.flat",
+        "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-44:\\drawable-nodpi\\guide_ss_drawing.png"
+    },
+    {
+        "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-merged_res-42:\\drawable-nodpi_guide_ss_networking.png.flat",
+        "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-44:\\drawable-nodpi\\guide_ss_networking.png"
+    },
+    {
+        "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-merged_res-42:\\drawable_bg_guide_row.xml.flat",
+        "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-44:\\drawable\\bg_guide_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-merged_res-42:\\drawable-nodpi_ic_launcher_art.png.flat",
+        "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-44:\\drawable-nodpi\\ic_launcher_art.png"
+    },
+    {
+        "merged": "com.devoptionshelper.app-merged_res-42:/drawable_bg_guide_badge_security.xml.flat",
+        "source": "com.devoptionshelper.app-main-44:/drawable/bg_guide_badge_security.xml"
+    },
+    {
+        "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-merged_res-42:\\drawable_bg_guide_badge_monitoring.xml.flat",
+        "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-44:\\drawable\\bg_guide_badge_monitoring.xml"
+    },
+    {
+        "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-merged_res-42:\\layout_item_guide_header.xml.flat",
+        "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-44:\\layout\\item_guide_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-merged_res-42:\\drawable_bg_guide_badge_apps.xml.flat",
+        "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-44:\\drawable\\bg_guide_badge_apps.xml"
+    },
+    {
+        "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-merged_res-42:\\drawable-nodpi_guide_ss_apps.png.flat",
+        "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-44:\\drawable-nodpi\\guide_ss_apps.png"
+    },
+    {
+        "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-merged_res-42:\\layout_activity_guide.xml.flat",
+        "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-44:\\layout\\activity_guide.xml"
+    },
+    {
+        "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-merged_res-42:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-44:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-merged_res-42:\\layout_activity_guide_detail.xml.flat",
+        "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-44:\\layout\\activity_guide_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-merged_res-42:\\drawable-nodpi_guide_ss_debugging.png.flat",
+        "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-44:\\drawable-nodpi\\guide_ss_debugging.png"
+    },
+    {
+        "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-merged_res-42:\\layout_view_guide_menu_illustration.xml.flat",
+        "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-44:\\layout\\view_guide_menu_illustration.xml"
+    },
+    {
+        "merged": "com.devoptionshelper.app-merged_res-42:/drawable_bg_guide_badge_location.xml.flat",
+        "source": "com.devoptionshelper.app-main-44:/drawable/bg_guide_badge_location.xml"
     }
 ]

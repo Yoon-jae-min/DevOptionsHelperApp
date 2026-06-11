@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.devoptionshelper.app-mergeDebugResources-39:/values-zu/values-zu.xml",
+            "outputFile": "com.devoptionshelper.app-mergeDebugResources-40:/values-zu/values-zu.xml",
             "map": [
                 {
                     "source": "C:\\Users\\androidJM\\.gradle\\caches\\8.9\\transforms\\152c8993f4c59d8942bec0ad1bd24ed1\\transformed\\appcompat-1.6.1\\res\\values-zu\\values-zu.xml",

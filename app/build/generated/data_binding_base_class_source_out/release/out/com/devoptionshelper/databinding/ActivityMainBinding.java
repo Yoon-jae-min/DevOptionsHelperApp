@@ -30,6 +30,9 @@ public final class ActivityMainBinding implements ViewBinding {
   public final MaterialButton btnOpenDevOptionsMenu;
 
   @NonNull
+  public final MaterialButton btnOpenGuide;
+
+  @NonNull
   public final MaterialButton btnShowPermissionHelp;
 
   @NonNull
@@ -48,13 +51,14 @@ public final class ActivityMainBinding implements ViewBinding {
   public final TextView tvStatus;
 
   private ActivityMainBinding(@NonNull LinearLayout rootView, @NonNull AdView adViewBanner,
-      @NonNull MaterialButton btnOpenDevOptionsMenu, @NonNull MaterialButton btnShowPermissionHelp,
-      @NonNull MaterialCardView cardQuickToggle, @NonNull Switch switchDevOptions,
-      @NonNull TextView tvQuickToggleHint, @NonNull TextView tvShortcutDesc,
-      @NonNull TextView tvStatus) {
+      @NonNull MaterialButton btnOpenDevOptionsMenu, @NonNull MaterialButton btnOpenGuide,
+      @NonNull MaterialButton btnShowPermissionHelp, @NonNull MaterialCardView cardQuickToggle,
+      @NonNull Switch switchDevOptions, @NonNull TextView tvQuickToggleHint,
+      @NonNull TextView tvShortcutDesc, @NonNull TextView tvStatus) {
     this.rootView = rootView;
     this.adViewBanner = adViewBanner;
     this.btnOpenDevOptionsMenu = btnOpenDevOptionsMenu;
+    this.btnOpenGuide = btnOpenGuide;
     this.btnShowPermissionHelp = btnShowPermissionHelp;
     this.cardQuickToggle = cardQuickToggle;
     this.switchDevOptions = switchDevOptions;
@@ -102,6 +106,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btnOpenGuide;
+      MaterialButton btnOpenGuide = ViewBindings.findChildViewById(rootView, id);
+      if (btnOpenGuide == null) {
+        break missingId;
+      }
+
       id = R.id.btnShowPermissionHelp;
       MaterialButton btnShowPermissionHelp = ViewBindings.findChildViewById(rootView, id);
       if (btnShowPermissionHelp == null) {
@@ -139,7 +149,7 @@ public final class ActivityMainBinding implements ViewBinding {
       }
 
       return new ActivityMainBinding((LinearLayout) rootView, adViewBanner, btnOpenDevOptionsMenu,
-          btnShowPermissionHelp, cardQuickToggle, switchDevOptions, tvQuickToggleHint,
+          btnOpenGuide, btnShowPermissionHelp, cardQuickToggle, switchDevOptions, tvQuickToggleHint,
           tvShortcutDesc, tvStatus);
     }
     String missingId = rootView.getResources().getResourceName(id);
