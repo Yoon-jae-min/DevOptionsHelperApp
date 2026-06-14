@@ -3370,6 +3370,7 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id etGuideSearch
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3657,6 +3658,7 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id tilGuideSearch
 id time
 id title
 id titleDividerNoCustom
@@ -3676,6 +3678,7 @@ id transition_transform
 id triangle
 id tvGuideBadge
 id tvGuideDescription
+id tvGuideSearchEmpty
 id tvGuideSummary
 id tvGuideTitle
 id tvQuickToggleHint
@@ -4285,6 +4288,8 @@ string guide_samsung_verbose_title
 string guide_screen_share_protect_desc
 string guide_screen_share_protect_summary
 string guide_screen_share_protect_title
+string guide_search_empty
+string guide_search_hint
 string guide_secondary_display_desc
 string guide_secondary_display_summary
 string guide_secondary_display_title

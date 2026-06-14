@@ -38,6 +38,8 @@
 
     <string name="guide_title">개발자 옵션 메뉴 설명</string>
     <string name="guide_intro">삼성 갤럭시(One UI) 개발자 옵션을 바탕으로 섹션별로 정리했습니다.\n\n메뉴 이름과 위치는 기기·제조사·안드로이드 버전에 따라 다를 수 있습니다.</string>
+    <string name="guide_search_hint">메뉴 이름 검색</string>
+    <string name="guide_search_empty">검색 결과가 없습니다.</string>
 
     <string name="guide_section_common_title">기본 메뉴</string>
     <string name="guide_section_common_desc">개발자 옵션 상단에 있는 항목입니다.</string>

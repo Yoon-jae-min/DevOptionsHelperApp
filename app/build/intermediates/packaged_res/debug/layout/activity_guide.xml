@@ -24,6 +24,45 @@
         android:textColor="?attr/colorOnSurfaceVariant"
         android:textSize="13sp" />
 
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilGuideSearch"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="8dp"
+        android:textColorHint="@color/on_surface_variant"
+        app:boxStrokeColor="@color/on_surface_variant"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/on_surface_variant"
+        app:hintEnabled="true"
+        app:hintTextColor="@color/on_surface_variant">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etGuideSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/guide_search_hint"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textColor="@color/on_surface"
+            android:textColorHint="@color/on_surface_variant" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tvGuideSearchEmpty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="24dp"
+        android:text="@string/guide_search_empty"
+        android:textAlignment="center"
+        android:textColor="?attr/colorOnSurfaceVariant"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerGuide"
         android:layout_width="match_parent"

@@ -8,12 +8,12 @@
         "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-43:\\layout\\item_guide_item.xml"
     },
     {
-        "merged": "com.devoptionshelper.app-mergeReleaseResources-41:/layout/activity_guide_detail.xml",
-        "source": "com.devoptionshelper.app-main-43:/layout/activity_guide_detail.xml"
-    },
-    {
         "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-mergeReleaseResources-41:\\layout\\activity_guide_detail.xml",
         "source": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-main-43:\\layout\\activity_guide_detail.xml"
+    },
+    {
+        "merged": "com.devoptionshelper.app-mergeReleaseResources-41:/layout/activity_guide.xml",
+        "source": "com.devoptionshelper.app-main-43:/layout/activity_guide.xml"
     },
     {
         "merged": "C:\\Users\\androidJM\\.gradle\\daemon\\8.9\\com.devoptionshelper.app-mergeReleaseResources-41:\\layout\\activity_main.xml",

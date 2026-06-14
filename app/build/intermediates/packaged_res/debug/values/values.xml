@@ -252,7 +252,7 @@
     <string name="guide_ims_ts32_desc">3GPP TS.32 등 IMS( IP 멀티미디어 서브시스템) 프로파일과 관련된 통신사·단말 테스트 옵션입니다. VoLTE·VoWiFi·RCS 등 IMS 서비스 호환 검증에 쓰입니다.\n\n메뉴 이름은 영문이며, 통신사 엔지니어링·단말 인증용에 가깝습니다. 임의로 켜지 마세요.\n\n【사용 예시】\n· VoWiFi·RCS 등 IMS 서비스 호환을 TS.32 프로파일로 인증 테스트할 때\n\n· 통신사 단말 인증 항목의 IMS 프로파일 동작을 점검할 때</string>
     <string name="guide_ims_ts32_summary">IMS TS.32 프로파일 관련 설정을 활성화합니다.</string>
     <string name="guide_ims_ts32_title">IMS TS32 Profile Enable</string>
-    <string name="guide_intro">개발자 옵션 메뉴를 섹션별로 정리했습니다. 메뉴 이름과 위치는 기기·제조사·안드로이드 버전에 따라 다를 수 있습니다.</string>
+    <string name="guide_intro">삼성 갤럭시(One UI) 개발자 옵션을 바탕으로 섹션별로 정리했습니다.\n\n메뉴 이름과 위치는 기기·제조사·안드로이드 버전에 따라 다를 수 있습니다.</string>
     <string name="guide_layout_bounds_desc">켜면 앱 UI 위에 각 View의 경계선, padding, margin, clip 영역이 선으로 표시됩니다. 레이아웃이 겹치는지, 정렬·간격이 맞는지, RTL·다국어에서 깨지는지 확인할 때 필수에 가깝습니다.\n\n개발·UI 검수용이며, 스크린샷·일상 사용에는 끄세요.\n\n【사용 예시】\n· 버튼이 겹치거나 정렬이 어긋날 때 각 View 경계선을 그려 확인할 때\n\n· 다국어·RTL에서 padding·margin이 깨지는지 점검할 때</string>
     <string name="guide_layout_bounds_summary">모든 뷰의 테두리·여백·clip bounds를 화면에 그립니다.</string>
     <string name="guide_layout_bounds_title">레이아웃 범위 표시</string>
@@ -325,6 +325,8 @@
     <string name="guide_screen_share_protect_desc">일부 앱·화면은 보안상 스크린샷·화면 공유가 차단됩니다. 켜면(보호 끄기) 개발·QA 중 그 제한을 우회해 화면을 녹화·공유할 수 있는 경우가 있습니다.\n\n보안·DRM 콘텐츠 테스트용이며, 평소에는 끄세요. 모든 앱에서 동작하지 않을 수 있습니다.\n\n【사용 예시】\n· FLAG_SECURE로 막힌 화면을 QA 녹화용으로 잠시 캡처할 때\n\n· 보안 화면 캡처 차단이 의도대로 동작하는지 끄고 비교할 때</string>
     <string name="guide_screen_share_protect_summary">화면 녹화·미러링 시 민감 화면 보호를 비활성화합니다.</string>
     <string name="guide_screen_share_protect_title">화면 공유 보호 끄기</string>
+    <string name="guide_search_empty">검색 결과가 없습니다.</string>
+    <string name="guide_search_hint">메뉴 이름 검색</string>
     <string name="guide_secondary_display_desc">탭하면 해상도·DPI를 고른 가상 보조 디스플레이를 추가할 수 있습니다. Presentation API, 데스크톱 모드, 듀얼 스크린 앱이 두 번째 화면에서 어떻게 보이는지 에뮬레이션할 때 사용합니다.\n\n실제 외부 모니터·폴더블 보조 패널과는 차이가 있을 수 있습니다.\n\n【사용 예시】\n· 외부 모니터 없이 Presentation API 화면을 가상 디스플레이로 테스트할 때\n\n· 듀얼 스크린 앱이 두 번째 화면에서 어떻게 보이는지 에뮬레이션할 때</string>
     <string name="guide_secondary_display_summary">가상의 외부·보조 화면을 만들어 멀티 디스플레이를 테스트합니다.</string>
     <string name="guide_secondary_display_title">보조 디스플레이 시뮬레이션</string>

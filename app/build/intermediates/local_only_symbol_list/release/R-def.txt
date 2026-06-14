@@ -53,11 +53,14 @@ id btnOpenGuide
 id btnShowPermissionHelp
 id cardGuideItem
 id cardQuickToggle
+id etGuideSearch
 id recyclerGuide
 id switchDevOptions
+id tilGuideSearch
 id toolbar
 id tvGuideBadge
 id tvGuideDescription
+id tvGuideSearchEmpty
 id tvGuideSummary
 id tvGuideTitle
 id tvQuickToggleHint
@@ -371,6 +374,8 @@ string guide_samsung_verbose_title
 string guide_screen_share_protect_desc
 string guide_screen_share_protect_summary
 string guide_screen_share_protect_title
+string guide_search_empty
+string guide_search_hint
 string guide_secondary_display_desc
 string guide_secondary_display_summary
 string guide_secondary_display_title

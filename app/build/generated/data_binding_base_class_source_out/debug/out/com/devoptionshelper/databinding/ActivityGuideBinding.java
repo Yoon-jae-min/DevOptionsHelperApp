@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
@@ -12,6 +13,8 @@ import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.devoptionshelper.R;
 import com.google.android.material.appbar.MaterialToolbar;
+import com.google.android.material.textfield.TextInputEditText;
+import com.google.android.material.textfield.TextInputLayout;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -21,16 +24,30 @@ public final class ActivityGuideBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
+  public final TextInputEditText etGuideSearch;
+
+  @NonNull
   public final RecyclerView recyclerGuide;
+
+  @NonNull
+  public final TextInputLayout tilGuideSearch;
 
   @NonNull
   public final MaterialToolbar toolbar;
 
-  private ActivityGuideBinding(@NonNull LinearLayout rootView, @NonNull RecyclerView recyclerGuide,
-      @NonNull MaterialToolbar toolbar) {
+  @NonNull
+  public final TextView tvGuideSearchEmpty;
+
+  private ActivityGuideBinding(@NonNull LinearLayout rootView,
+      @NonNull TextInputEditText etGuideSearch, @NonNull RecyclerView recyclerGuide,
+      @NonNull TextInputLayout tilGuideSearch, @NonNull MaterialToolbar toolbar,
+      @NonNull TextView tvGuideSearchEmpty) {
     this.rootView = rootView;
+    this.etGuideSearch = etGuideSearch;
     this.recyclerGuide = recyclerGuide;
+    this.tilGuideSearch = tilGuideSearch;
     this.toolbar = toolbar;
+    this.tvGuideSearchEmpty = tvGuideSearchEmpty;
   }
 
   @Override
@@ -60,9 +77,21 @@ public final class ActivityGuideBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.etGuideSearch;
+      TextInputEditText etGuideSearch = ViewBindings.findChildViewById(rootView, id);
+      if (etGuideSearch == null) {
+        break missingId;
+      }
+
       id = R.id.recyclerGuide;
       RecyclerView recyclerGuide = ViewBindings.findChildViewById(rootView, id);
       if (recyclerGuide == null) {
+        break missingId;
+      }
+
+      id = R.id.tilGuideSearch;
+      TextInputLayout tilGuideSearch = ViewBindings.findChildViewById(rootView, id);
+      if (tilGuideSearch == null) {
         break missingId;
       }
 
@@ -72,7 +101,14 @@ public final class ActivityGuideBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityGuideBinding((LinearLayout) rootView, recyclerGuide, toolbar);
+      id = R.id.tvGuideSearchEmpty;
+      TextView tvGuideSearchEmpty = ViewBindings.findChildViewById(rootView, id);
+      if (tvGuideSearchEmpty == null) {
+        break missingId;
+      }
+
+      return new ActivityGuideBinding((LinearLayout) rootView, etGuideSearch, recyclerGuide,
+          tilGuideSearch, toolbar, tvGuideSearchEmpty);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

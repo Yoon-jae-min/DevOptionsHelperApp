@@ -1,5 +1,6 @@
 package com.devoptionshelper.guide
 
+import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -14,12 +15,35 @@ sealed class GuideListEntry {
 }
 
 class GuideListAdapter(
+    private val context: Context,
     private val onItemClick: (DevOptionGuideItem) -> Unit
 ) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
+    private val allItems = mutableListOf<DevOptionGuideItem>()
     private val entries = mutableListOf<GuideListEntry>()
 
     fun submitItems(items: List<DevOptionGuideItem>) {
+        allItems.clear()
+        allItems.addAll(items)
+        filter("")
+    }
+
+    fun filter(query: String): Boolean {
+        val normalizedQuery = query.trim()
+        val matchedItems = if (normalizedQuery.isEmpty()) {
+            allItems
+        } else {
+            allItems.filter { item ->
+                context.getString(item.titleResId)
+                    .contains(normalizedQuery, ignoreCase = true)
+            }
+        }
+        rebuildEntries(matchedItems)
+        notifyDataSetChanged()
+        return matchedItems.isNotEmpty()
+    }
+
+    private fun rebuildEntries(items: List<DevOptionGuideItem>) {
         entries.clear()
         for (category in SECTION_ORDER) {
             val sectionItems = items.filter { it.category == category }
@@ -28,7 +52,6 @@ class GuideListAdapter(
                 sectionItems.forEach { entries.add(GuideListEntry.Item(it)) }
             }
         }
-        notifyDataSetChanged()
     }
 
     override fun getItemViewType(position: Int): Int = when (entries[position]) {
